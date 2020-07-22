@@ -2,23 +2,26 @@ John Watson knows of an operation called a right circular rotation on an array o
 shifts all remaining elements right one. To test Sherlock's abilities, Watson provides Sherlock with an array of integers. Sherlock is to perform the rotation operation 
 a number of times then determine the value of the element at a given position.
 For each array, perform a number of right circular rotations and return the value of the element at a given index.
-For example, array , number of rotations,  and indices to check, .
+For example, array a=[3,4,5], number of rotations,k=2 and indices to check,m=[1,2].
 First we perform the two rotations:
-Now return the values from the zero-based indices  and  as indicated in the  array.
+[3,4,5]->[5,3,4]->[4,5,3]
+Now return the values from the zero-based indices 1 and 2 as indicated in the m array.
+a[1]=5
+a[2]=3
 
-Function Description
+FUNCTION DESCRIPTION
 Complete the circularArrayRotation function in the editor below. It should return an array of integers representing the values at the specified indices.
 circularArrayRotation has the following parameter(s):
 a: an array of integers to rotate
 k: an integer, the rotation count
 queries: an array of integers, the indices to report
 
-Input Format
-The first line contains  space-separated integers, , , and , the number of elements in the integer array, the rotation count and the number of queries.
-The second line contains  space-separated integers, where each integer  describes array element  (where ).
-Each of the  subsequent lines contains a single integer denoting , the index of the element to return from .
+INPUT FORMAT
+The first line contains 3 space-separated integers, n, k, and q, the number of elements in the integer array, the rotation count and the number of queries.
+The second line contains n space-separated integers, where each integer i describes array element a[i] (where 0<=i<n ).
+Each of the q subsequent lines contains a single integer denoting m, the index of the element to return from a.
 
-Output Format
+OUTPUT FORMAT
 For each query, print the value of the element at index  of the rotated array on a new line.
 
 Sample Input 0
@@ -34,14 +37,13 @@ Sample Output 0
 1
 
 Explanation 0
-After the first rotation, the array becomes .
-After the second (and final) rotation, the array becomes .
+After the first rotation, the array becomes [3,1,2].
+After the second (and final) rotation, the array becomes [2,3,1].
 
-Let's refer to the array's final state as array . For each query, we just have to print the value of  on a new line:
-
-, .
-, .
-, .
+Let's refer to the array's final state as array b=[2,3,1]. For each query, we just have to print the value of bm on a new line:
+1. m=0,b0=2.
+2. m=1,b1=3.
+3. m=2,b2=1.
 
 
 #include<bits/stdc++.h>
