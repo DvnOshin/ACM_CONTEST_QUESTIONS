@@ -35,7 +35,7 @@ SAMPLE OUTPUT 1
 
 EXPLANATION 1
 The only thundercloud to avoid is c[4]. Emma can win the game in 3 jumps:
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #include <bits/stdc++.h>
 using namespace std;
