@@ -44,7 +44,7 @@ For this conversion the running time of algorithm for:
 5th element :- 10*3 = 30sec
 Hence the total running time of algorithm for 1st TestCase is 18+15+12+0+30=75.
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #include <cmath>
 #include <cstdio>
 #include <vector>
