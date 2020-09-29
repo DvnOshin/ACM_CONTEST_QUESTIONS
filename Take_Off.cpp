@@ -23,7 +23,7 @@ SAMPLE OUTPUT
 EXPLANATION 
 Sample test case 1: Note that on days 2 and 10 plane A can takeoff, on days 3 and 9 plane B can takeoff.
 Sample test case 2: Note that there is no day on which there is no collision.
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #include <cmath>
 #include <cstdio>
