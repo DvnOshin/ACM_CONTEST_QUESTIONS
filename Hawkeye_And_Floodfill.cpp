@@ -27,7 +27,7 @@ EXPLANATION
 The size of the practice board is 7*7
 Hawkeye shoots an arrow at 3,3 position with power 3.
 So, at every layer the impact reduces by 1 until impact becomes 0
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #include<bits/stdc++.h>
 using namespace std;
