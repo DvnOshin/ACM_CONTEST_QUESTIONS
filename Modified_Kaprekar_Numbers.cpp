@@ -32,7 +32,7 @@ SAMPLE OUTPUT
 EXPLANATION
 1,9,45,55,and 99 are the Kaprekar Numbers in the given range.
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #include <bits/stdc++.h>
 using namespace std;
 int main() 
