@@ -40,7 +40,7 @@ He spends his 12 dollars on 3 chocolates at 4 dollars apiece. He has 3 wrappers,
 He spends 6 dollars on 3 chocolates at 2 dollars apiece. He then exchanges 2 of the 3 wrappers for 1 additional piece. Next, he uses his third leftover chocolate wrapper
 from his initial purchase with the wrapper from his trade-in to do a second trade-in for 1 more piece. At this point he has 1 wrapper left, which is not enough to perform
 another trade-in. He eats 5 chocolates.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #include <bits/stdc++.h>
 using namespace std;
